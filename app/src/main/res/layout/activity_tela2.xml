@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#239BC5"
+    android:backgroundTint="#07B4EF"
+    tools:context=".tela2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Nota Comum"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Nota 1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Lembrete 3"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Lembrete 1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Lembrete 2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Nota 2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Nota 3"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">Lista de Tarefas"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="414dp"
+        android:layout_height="114dp"
+        android:background="#0549D5"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:text="                         Nome do usuário"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:text="               Pesquisar"
+        android:textAllCaps="false"
+        android:textColor="#817F7F"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/icone_lupa"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:background="#0549D5"
+        app:srcCompat="@drawable/icone_de_perfil"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">CRIAR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">SUAS NOTAS"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">SEUS LEMBRETES"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/icone_de_configuracao_3"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/icone_de_tres_pontos"
+        tools:layout_editor_absoluteX="360dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
